@@ -1,0 +1,5 @@
+blazersh: Project4.c
+	gcc Project4.c queue.c -lpthread
+
+clean:
+	rm *.out *.err blazersh *.log
